@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import { Badge } from './index';
-import type { Props } from './Badge.types';
+import type { BadgeProps } from './Badge.types';
 
 const meta: Meta<typeof Badge> = {
   title: 'Atoms/Badge',
@@ -14,7 +14,7 @@ const meta: Meta<typeof Badge> = {
 };
 
 export default meta;
-type Story = StoryObj<Props>;
+type Story = StoryObj<BadgeProps>;
 
 export const Playground: Story = {
   args: {

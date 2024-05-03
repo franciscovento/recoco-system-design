@@ -1,3 +1,1 @@
-export interface CourseCardProps {
-
-}
+export interface CourseCardProps {}

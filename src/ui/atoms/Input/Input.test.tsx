@@ -1,15 +1,16 @@
-import { fireEvent, screen } from '@testing-library/react'
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { render } from '@testing-library/react';
+import { beforeEach, describe, it } from 'vitest';
 
-import { Input } from './Input'
-import { type Props } from './Input.types'
+import { Input } from './Input';
+import { type InputProps } from './Input.types';
 
 describe(Input, () => {
-  let defaultProps: Props
+  let defaultProps: InputProps;
 
   beforeEach(() => {
-    defaultProps = {
-    }
-  })
-  it('Should ...', () => {})
-})
+    defaultProps = {};
+  });
+  it('Input Should render', () => {
+    render(<Input {...defaultProps} />);
+  });
+});

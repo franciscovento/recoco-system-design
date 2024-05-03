@@ -1,0 +1,5 @@
+import{u as a,j as i}from"./styled-components.browser.esm-Clu1UH-V.js";import{t as n}from"./theme-DB_-j-9A.js";import"./index-BNmGZPJw.js";const d=a.div`
+  width: 100%;
+  border-radius:  ${n.borderRadius.lg};
+  
+`,o=p=>i.jsx(d,{});o.__docgenInfo={description:"",methods:[],displayName:"PromptCard",props:{title:{required:!0,tsType:{name:"string"},description:""},description:{required:!0,tsType:{name:"string"},description:""},buttonText:{required:!0,tsType:{name:"string"},description:""},onClick:{required:!0,tsType:{name:"signature",type:"function",raw:"() => void",signature:{arguments:[],return:{name:"void"}}},description:""},image:{required:!0,tsType:{name:"string"},description:""}}};const g={title:"Molecules/PromptCard",component:o,parameters:{layout:"centered"},tags:["autodocs"],argTypes:{}},r={};var e,t,s;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:"{}",...(s=(t=r.parameters)==null?void 0:t.docs)==null?void 0:s.source}}};const l=["Playground"];export{r as Playground,l as __namedExportsOrder,g as default};

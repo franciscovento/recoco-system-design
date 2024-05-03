@@ -6,5 +6,5 @@ import type { PromptCardProps } from './PromptCard.types';
 export const PromptCard: React.FC<PromptCardProps> = (
   props: PromptCardProps
 ) => {
-  return <Styled.PromptCard />;
+  return <Styled.PromptCard {...props} />;
 };
