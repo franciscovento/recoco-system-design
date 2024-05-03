@@ -48,6 +48,7 @@ export const Button = styled.button<ButtonProps>`
   background-color: ${ (props) => props.variant === 'outlined' || props.variant === "text" ? 'transparent' : getButtonColor(props.color || 'primary') };
   border: ${ (props) => props.variant === 'outlined' ? `1px solid ${getButtonColor(props.color || 'primary')}` : '1px solid transparent' };
   color: ${ (props) => props.variant === 'filled' ? theme.colors.white : getButtonColor(props.color || 'primary') };
+  ${ (props) => props.textColor ? `color: ${props.textColor}` : '' };
   display: inline-block;
   width: ${ (props) => getButtonSize(props.size || "md").width};
   height: ${ (props) => getButtonSize(props.size || "md").height};

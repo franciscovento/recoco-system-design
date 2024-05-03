@@ -31,6 +31,11 @@ const meta: Meta<typeof Button> = {
         type: 'select',
       },
     },
+    textColor: {
+      control: {
+        type: 'color',
+      },
+    },
     rounded: {
       control: {
         type: 'boolean',

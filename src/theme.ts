@@ -13,5 +13,15 @@ export const theme = {
     paragraph: '16px',
     subtitle: '20px',
     title: '24px',
+  },
+  borderRadius: {
+    sm: '4px',
+    md: '8px',
+    lg: '20px',
+    xl: '24px',
+  },
+  boxShadow: {
+    card: '2.17893px 2.17893px 6.5368px 0px rgba(174, 174, 192, 0.40)',
+    
   }
 }

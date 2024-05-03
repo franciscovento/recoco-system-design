@@ -9,6 +9,7 @@ export interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariantProps;
   size?: ButtonSizeProps;
   color?: ButtonColorProps;
+  textColor?: string;
   rounded: boolean;
   onClick?: () => void;
 }

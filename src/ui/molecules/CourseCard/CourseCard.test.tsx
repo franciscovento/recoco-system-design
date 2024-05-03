@@ -1,11 +1,11 @@
 import { fireEvent, screen } from '@testing-library/react'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 
-import { {{name}} } from './{{name}}'
-import { type {{name}}Props } from './{{name}}.types'
+import { CourseCard } from './CourseCard'
+import { type CourseCardProps } from './CourseCard.types'
 
-describe({{ name }}, () => {
-  let defaultProps: {{name}}Props
+describe(CourseCard, () => {
+  let defaultProps: Props
 
   beforeEach(() => {
     defaultProps = {
